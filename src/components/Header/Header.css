@@ -1,0 +1,40 @@
+.header{
+    text-align: center;
+}
+
+.logo{
+    margin-top: 10px;
+    height: 50px;
+}
+
+.header nav{
+    background-color: black;
+    line-height: 50px;
+}
+
+.header nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    background-color: black;
+    padding: 7px 15px;
+    border-radius: 10px;
+    font-weight:500;
+    transition: 400ms ease;
+    -webkit-transition: 400ms ease;
+    -moz-transition: 400ms ease;
+    -ms-transition: 400ms ease;
+    -o-transition: 400ms ease;
+}
+
+.header nav a:hover{
+    background-color: orange;
+    color: black;
+    padding: 7px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
